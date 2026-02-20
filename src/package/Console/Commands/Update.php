@@ -34,7 +34,7 @@ class Update extends Base
     /**
      * Execute the console command.
      */
-    public function fire()
+    public function fire(): void
     {
         app(Updater::class)->update($this);
 
@@ -44,8 +44,10 @@ class Update extends Base
     /**
      * Execute the console command.
      */
-    public function handle()
+    public function handle(): int
     {
         $this->fire();
+
+        return self::SUCCESS;
     }
 }

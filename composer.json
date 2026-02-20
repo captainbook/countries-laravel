@@ -28,7 +28,7 @@
     ],
 
     "require": {
-        "php": "^8.2",
+        "php": ">=8.2 <8.5",
         "laravel/framework": "^11.0",
         "psr/simple-cache": "^1.0|^2.0|^3.0",
         "pragmarx/coollection": "^1.0",
