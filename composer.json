@@ -29,10 +29,10 @@
 
     "require": {
         "php": ">=8.2 <8.5",
-        "laravel/framework": "^11.0",
+        "laravel/framework": "^11.0|^12.0",
         "psr/simple-cache": "^1.0|^2.0|^3.0",
-        "pragmarx/coollection": "^1.0",
-        "pragmarx/countries": "^1.0"
+        "pragmarx/coollection": "dev-laravel-12-with-php-v84",
+        "pragmarx/countries": "dev-laravel-12-with-php-v84"
     },
 
     "require-dev": {
